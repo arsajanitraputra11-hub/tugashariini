@@ -1,0 +1,760 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMK Muhammadiyah Pakem &mdash; Sekolah Unggulan Masa Depan</title>
+  <meta name="description" content="Website resmi SMK Muhammadiyah Pakem &mdash; Sekolah kejuruan unggulan yang mencetak generasi kompeten dan berkarakter." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#beranda" class="navbar__brand">
+        <div class="navbar__logo">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="48" height="48" rx="12" fill="#1E3A8A"/>
+            <path d="M24 8L38 16V32L24 40L10 32V16L24 8Z" fill="#3B82F6" opacity="0.4"/>
+            <path d="M24 12L34 18V30L24 36L14 30V18L24 12Z" fill="white"/>
+            <text x="24" y="27" text-anchor="middle" font-size="9" font-weight="800" fill="#1E3A8A" font-family="Inter">SMP</text>
+          </svg>
+        </div>
+        <div class="navbar__brand-text">
+          <span class="navbar__school-name">SMK Muhammadiyah Pakem</span>
+          <span class="navbar__school-tagline">Kompeten &amp; Berkarakter</span>
+        </div>
+      </a>
+
+      <nav class="navbar__nav" id="navMenu" aria-label="Menu Utama">
+        <ul class="navbar__list">
+          <li><a href="#beranda" class="navbar__link active">Beranda</a></li>
+          <li><a href="#profil" class="navbar__link">Profil Sekolah</a></li>
+          <li class="navbar__dropdown">
+            <a href="#program" class="navbar__link navbar__link--dropdown">
+              Program Keahlian
+              <svg class="dropdown-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </a>
+            <ul class="dropdown__menu">
+              <li><a href="#program" class="dropdown__item">Teknik Informatika</a></li>
+              <li><a href="#program" class="dropdown__item">Teknik Otomotif</a></li>
+              <li><a href="#program" class="dropdown__item">Akuntansi &amp; Keuangan</a></li>
+              <li><a href="#program" class="dropdown__item">Multimedia</a></li>
+            </ul>
+          </li>
+          <li><a href="#berita" class="navbar__link">Berita &amp; Info</a></li>
+          <li><a href="#galeri" class="navbar__link">Galeri</a></li>
+          <li><a href="#kontak" class="navbar__link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="#kontak" class="btn btn--primary btn--sm">Daftar Sekarang</a>
+        <button class="navbar__hamburger" id="hamburgerBtn" aria-label="Buka menu" aria-expanded="false" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO / BERANDA ===== -->
+    <section class="hero" id="beranda">
+      <div class="hero__bg-shapes" aria-hidden="true">
+        <div class="shape shape--1"></div>
+        <div class="shape shape--2"></div>
+        <div class="shape shape--3"></div>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 1l2.39 4.843L18 6.908l-4 3.896.944 5.504L10 13.77l-4.944 2.538L6 10.804 2 6.908l5.61-.065L10 1z" clip-rule="evenodd"/></svg>
+            Akreditasi A &mdash; Sekolah Terbaik 2024
+          </div>
+          <h1 class="hero__title">
+            Wujudkan Masa Depanmu<br/>
+            Bersama <span class="text-gradient">SMK Muhammadiyah Pakem</span>
+          </h1>
+          <p class="hero__desc">
+            Sekolah kejuruan terkemuka yang mengintegrasikan pendidikan vokasi berkualitas, teknologi modern, dan pembentukan karakter untuk mencetak lulusan siap kerja dan berdaya saing global.
+          </p>
+          <div class="hero__cta">
+            <a href="#program" class="btn btn--primary btn--lg">Lihat Program Keahlian</a>
+            <a href="#profil" class="btn btn--outline btn--lg">Pelajari Lebih Lanjut</a>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <strong>2.800+</strong>
+              <span>Siswa Aktif</span>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div class="hero__stat">
+              <strong>98%</strong>
+              <span>Tingkat Kelulusan</span>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div class="hero__stat">
+              <strong>150+</strong>
+              <span>Mitra Industri</span>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div class="hero__stat">
+              <strong>25</strong>
+              <span>Tahun Berdiri</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__card-stack">
+            <div class="hero__card hero__card--main">
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"/></svg>
+              </div>
+              <div>
+                <p class="card-label">Total Alumni</p>
+                <p class="card-value">12.000+</p>
+              </div>
+            </div>
+            <div class="hero__card hero__card--secondary">
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"/></svg>
+              </div>
+              <div>
+                <p class="card-label">Rating Kepuasan</p>
+                <p class="card-value">4.9 / 5.0</p>
+              </div>
+            </div>
+            <div class="hero__card hero__card--tertiary">
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0"/></svg>
+              </div>
+              <div>
+                <p class="card-label">Penghargaan Nasional</p>
+                <p class="card-value">42 Trofi</p>
+              </div>
+            </div>
+            <div class="hero__circle-decoration"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROFIL SEKOLAH ===== -->
+    <section class="section profil" id="profil">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Tentang Kami</span>
+          <h2 class="section-title">Profil Sekolah</h2>
+          <p class="section-subtitle">Mengenal lebih dekat SMK Muhammadiyah Pakem dan perjalanan kami membangun generasi unggul bangsa.</p>
+        </div>
+
+        <div class="profil__grid">
+          <div class="profil__info">
+            <div class="info-card">
+              <h3 class="info-card__title">Identitas Sekolah</h3>
+              <ul class="info-card__list">
+                <li><span class="info-label">Nama Sekolah</span><span class="info-value">SMK Muhammadiyah Pakem</span></li>
+                <li><span class="info-label">NPSN</span><span class="info-value">20231456</span></li>
+                <li><span class="info-label">Akreditasi</span><span class="info-value badge-accent">A (Unggul)</span></li>
+                <li><span class="info-label">Tahun Berdiri</span><span class="info-value">1999</span></li>
+                <li><span class="info-label">Kepala Sekolah</span><span class="info-value">Drs. Ahmad Fauzi, M.Pd.</span></li>
+                <li><span class="info-label">Status</span><span class="info-value">Swasta</span></li>
+                <li><span class="info-label">Alamat</span><span class="info-value">Jl. Kaliurang Km. 17, Pakem, Sleman, DIY</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="profil__visi-misi">
+            <div class="tab-container">
+              <div class="tab-buttons" role="tablist">
+                <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-visi" id="btn-visi">Visi</button>
+                <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-misi" id="btn-misi">Misi</button>
+                <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-nilai" id="btn-nilai">Nilai</button>
+              </div>
+              <div class="tab-content">
+                <div class="tab-panel active" id="tab-visi" role="tabpanel" aria-labelledby="btn-visi">
+                  <div class="tab-panel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                  </div>
+                  <h4>Visi Sekolah</h4>
+                  <p>Menjadi sekolah menengah kejuruan terbaik yang menghasilkan lulusan kompeten, berkarakter mulia, dan berdaya saing global di era industri 4.0.</p>
+                </div>
+                <div class="tab-panel" id="tab-misi" role="tabpanel" aria-labelledby="btn-misi">
+                  <div class="tab-panel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25z"/></svg>
+                  </div>
+                  <h4>Misi Sekolah</h4>
+                  <ul class="misi-list">
+                    <li>Menyelenggarakan pendidikan vokasi berkualitas tinggi sesuai standar industri nasional dan internasional.</li>
+                    <li>Membangun karakter siswa yang berakhlak mulia, disiplin, dan bertanggung jawab.</li>
+                    <li>Mengembangkan kemitraan strategis dengan dunia usaha dan industri.</li>
+                    <li>Menciptakan lingkungan belajar yang inovatif, inklusif, dan menyenangkan.</li>
+                  </ul>
+                </div>
+                <div class="tab-panel" id="tab-nilai" role="tabpanel" aria-labelledby="btn-nilai">
+                  <div class="tab-panel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/></svg>
+                  </div>
+                  <h4>Nilai-Nilai Kami</h4>
+                  <div class="nilai-grid">
+                    <div class="nilai-item">Integritas</div>
+                    <div class="nilai-item">Inovasi</div>
+                    <div class="nilai-item">Kolaborasi</div>
+                    <div class="nilai-item">Keunggulan</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fasilitas -->
+        <div class="fasilitas">
+          <h3 class="fasilitas__title">Fasilitas Unggulan</h3>
+          <div class="fasilitas__grid">
+
+            <div class="fasilitas__card">
+              <div class="fasilitas__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0H3"/></svg>
+              </div>
+              <h4>Lab Komputer</h4>
+              <p>8 laboratorium komputer dengan spesifikasi terkini, koneksi internet fiber optik.</p>
+            </div>
+
+            <div class="fasilitas__card">
+              <div class="fasilitas__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/></svg>
+              </div>
+              <h4>Workshop Modern</h4>
+              <p>Bengkel kerja berstandar industri untuk praktik kejuruan yang nyata.</p>
+            </div>
+
+            <div class="fasilitas__card">
+              <div class="fasilitas__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
+              </div>
+              <h4>Perpustakaan Digital</h4>
+              <p>Koleksi 10.000+ buku fisik dan akses e-library internasional 24 jam.</p>
+            </div>
+
+            <div class="fasilitas__card">
+              <div class="fasilitas__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.87c1.355 0 2.697.055 4.024.165C17.155 8.51 18 9.473 18 10.608v2.513m-3-4.87v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.38a48.474 48.474 0 00-6-.37c-2.032 0-4.034.125-6 .37m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.049 1.837 2.127v1.099c0 .28-.22.5-.5.5h-15a.5.5 0 01-.5-.5V15.25c0-1.078.768-1.968 1.837-2.128.386-.057.773-.11 1.163-.16"/></svg>
+              </div>
+              <h4>Lapangan Olahraga</h4>
+              <p>Fasilitas olahraga lengkap: lapangan futsal, basket, voli, dan atletik.</p>
+            </div>
+
+            <div class="fasilitas__card">
+              <div class="fasilitas__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.87c1.355 0 2.697.055 4.024.165C17.155 8.51 18 9.473 18 10.608v2.513M6 20.25V13.5m0 6.75h1.5M6 20.25H4.5M18 20.25V13.5m0 6.75h1.5M18 20.25h-1.5m-7.5 0h3"/></svg>
+              </div>
+              <h4>Kantin Sehat</h4>
+              <p>Kantin higienis dengan menu bergizi yang diawasi oleh ahli gizi profesional.</p>
+            </div>
+
+            <div class="fasilitas__card">
+              <div class="fasilitas__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+              </div>
+              <h4>Keamanan 24 Jam</h4>
+              <p>CCTV di seluruh area, satpam profesional, dan sistem akses kartu pelajar.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROGRAM KEAHLIAN ===== -->
+    <section class="section program" id="program">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Jurusan</span>
+          <h2 class="section-title">Program Keahlian</h2>
+          <p class="section-subtitle">Pilih program keahlian yang sesuai dengan minat dan cita-citamu. Semua program terakreditasi dan bermitra dengan industri terkemuka.</p>
+        </div>
+        <div class="program__grid">
+
+          <article class="program__card program__card--featured">
+            <div class="program__card-header">
+              <div class="program__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="44" height="44"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"/></svg>
+              </div>
+              <span class="program__badge program__badge--new">Paling Diminati</span>
+            </div>
+            <h3>Teknik Informatika &amp; Jaringan</h3>
+            <p>Mempelajari pemrograman, pengembangan web &amp; mobile, keamanan siber, dan administrasi jaringan komputer.</p>
+            <ul class="program__skills">
+              <li>Web Development</li>
+              <li>Cybersecurity</li>
+              <li>Cloud Computing</li>
+              <li>AI &amp; Data</li>
+            </ul>
+            <div class="program__meta">
+              <span>320 Siswa</span>
+              <span>3 Tahun</span>
+            </div>
+            <a href="#kontak" class="btn btn--primary btn--sm program__cta">Info Pendaftaran</a>
+          </article>
+
+          <article class="program__card">
+            <div class="program__card-header">
+              <div class="program__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="44" height="44"><path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"/></svg>
+              </div>
+            </div>
+            <h3>Multimedia &amp; Desain Kreatif</h3>
+            <p>Mengembangkan kreativitas dalam desain grafis, video editing, animasi, dan produksi konten digital.</p>
+            <ul class="program__skills">
+              <li>Desain Grafis</li>
+              <li>Video Production</li>
+              <li>Animasi 2D/3D</li>
+              <li>Motion Graphics</li>
+            </ul>
+            <div class="program__meta">
+              <span>240 Siswa</span>
+              <span>3 Tahun</span>
+            </div>
+            <a href="#kontak" class="btn btn--outline-dark btn--sm program__cta">Info Pendaftaran</a>
+          </article>
+
+          <article class="program__card">
+            <div class="program__card-header">
+              <div class="program__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="44" height="44"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/></svg>
+              </div>
+            </div>
+            <h3>Teknik Otomotif</h3>
+            <p>Membekali siswa dengan keahlian perawatan, perbaikan, dan teknologi kendaraan konvensional serta listrik.</p>
+            <ul class="program__skills">
+              <li>Mesin Konvensional</li>
+              <li>Kendaraan Listrik</li>
+              <li>Diagnosis Digital</li>
+              <li>Bodywork</li>
+            </ul>
+            <div class="program__meta">
+              <span>280 Siswa</span>
+              <span>3 Tahun</span>
+            </div>
+            <a href="#kontak" class="btn btn--outline-dark btn--sm program__cta">Info Pendaftaran</a>
+          </article>
+
+          <article class="program__card">
+            <div class="program__card-header">
+              <div class="program__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="44" height="44"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/></svg>
+              </div>
+              <span class="program__badge program__badge--hot">Peluang Kerja Tinggi</span>
+            </div>
+            <h3>Akuntansi &amp; Keuangan Lembaga</h3>
+            <p>Mempelajari akuntansi digital, perpajakan, perbankan, dan manajemen keuangan perusahaan modern.</p>
+            <ul class="program__skills">
+              <li>Akuntansi Digital</li>
+              <li>Perpajakan</li>
+              <li>Perbankan</li>
+              <li>Manajemen Bisnis</li>
+            </ul>
+            <div class="program__meta">
+              <span>260 Siswa</span>
+              <span>3 Tahun</span>
+            </div>
+            <a href="#kontak" class="btn btn--outline-dark btn--sm program__cta">Info Pendaftaran</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BERITA & INFORMASI ===== -->
+    <section class="section berita" id="berita">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Terkini</span>
+          <h2 class="section-title">Berita &amp; Informasi</h2>
+          <p class="section-subtitle">Ikuti perkembangan terbaru dari SMK Muhammadiyah Pakem &mdash; prestasi, kegiatan, dan pengumuman penting.</p>
+        </div>
+        <div class="berita__grid">
+
+          <article class="berita__card berita__card--featured">
+            <div class="berita__image berita__image--blue">
+              <span class="berita__category">Prestasi</span>
+              <div class="berita__image-content" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="56" height="56"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0"/></svg>
+              </div>
+            </div>
+            <div class="berita__body">
+              <div class="berita__meta">
+                <time datetime="2026-11-01">1 November 2026</time>
+                <span>&bull;</span>
+                <span>Admin</span>
+              </div>
+              <h3>SMK Muhammadiyah Pakem Raih Juara 1 LKS Nasional Bidang IT</h3>
+              <p>Tim siswa kami berhasil meraih medali emas pada Lomba Kompetensi Siswa (LKS) tingkat nasional di Jakarta Convention Center, mengalahkan 34 provinsi peserta.</p>
+              <a href="#berita" class="berita__link">Baca Selengkapnya &rarr;</a>
+            </div>
+          </article>
+
+          <article class="berita__card">
+            <div class="berita__image berita__image--green">
+              <span class="berita__category">Kegiatan</span>
+              <div class="berita__image-content" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"/></svg>
+              </div>
+            </div>
+            <div class="berita__body">
+              <div class="berita__meta"><time datetime="2026-10-20">20 Oktober 2026</time></div>
+              <h3>Wisuda Angkatan ke-25 Dihadiri 500 Lulusan</h3>
+              <p>Upacara wisuda berlangsung khidmat dan meriah di Gedung Serbaguna.</p>
+              <a href="#berita" class="berita__link">Baca Selengkapnya &rarr;</a>
+            </div>
+          </article>
+
+          <article class="berita__card">
+            <div class="berita__image berita__image--purple">
+              <span class="berita__category">Kemitraan</span>
+              <div class="berita__image-content" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/></svg>
+              </div>
+            </div>
+            <div class="berita__body">
+              <div class="berita__meta"><time datetime="2026-10-10">10 Oktober 2026</time></div>
+              <h3>MoU dengan 10 Perusahaan Teknologi Terkemuka</h3>
+              <p>SMK Muhammadiyah Pakem menandatangani perjanjian kerjasama magang dan rekrutmen.</p>
+              <a href="#berita" class="berita__link">Baca Selengkapnya &rarr;</a>
+            </div>
+          </article>
+
+          <article class="berita__card">
+            <div class="berita__image berita__image--orange">
+              <span class="berita__category">Pengumuman</span>
+              <div class="berita__image-content" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="40" height="40"><path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46"/></svg>
+              </div>
+            </div>
+            <div class="berita__body">
+              <div class="berita__meta">
+                <time datetime="2026-11-13">13 November 2026</time>
+                <span class="badge-new-post">Baru</span>
+              </div>
+              <h3>Pendaftaran Peserta Didik Baru Tahun 2027 Dibuka</h3>
+              <p>Pendaftaran PPDB tahun ajaran 2026/2027 resmi dibuka. Daftar sekarang!</p>
+              <a href="#kontak" class="berita__link">Daftar Sekarang &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERI ===== -->
+    <section class="section galeri" id="galeri">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Dokumentasi</span>
+          <h2 class="section-title">Galeri</h2>
+          <p class="section-subtitle">Momen-momen berharga dari berbagai kegiatan akademik, ekstrakurikuler, dan prestasi siswa SMK Muhammadiyah Pakem.</p>
+        </div>
+
+        <div class="galeri__filter" role="group" aria-label="Filter galeri">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="kegiatan">Kegiatan</button>
+          <button class="filter-btn" data-filter="prestasi">Prestasi</button>
+          <button class="filter-btn" data-filter="fasilitas">Fasilitas</button>
+        </div>
+
+        <div class="galeri__grid" id="galeriGrid">
+          <div class="galeri__item galeri__item--large" data-category="prestasi">
+            <div class="galeri__placeholder galeri__placeholder--blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="48" height="48"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516m7.74 1.814a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972"/></svg>
+              <p>Juara LKS Nasional 2026</p>
+            </div>
+            <div class="galeri__overlay"><span>Juara LKS Nasional</span></div>
+          </div>
+          <div class="galeri__item" data-category="kegiatan">
+            <div class="galeri__placeholder galeri__placeholder--green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="36" height="36"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"/></svg>
+              <p>Upacara Wisuda 2026</p>
+            </div>
+            <div class="galeri__overlay"><span>Wisuda Angkatan 25</span></div>
+          </div>
+          <div class="galeri__item" data-category="fasilitas">
+            <div class="galeri__placeholder galeri__placeholder--purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="36" height="36"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0H3"/></svg>
+              <p>Lab Komputer Terkini</p>
+            </div>
+            <div class="galeri__overlay"><span>Laboratorium Komputer</span></div>
+          </div>
+          <div class="galeri__item" data-category="kegiatan">
+            <div class="galeri__placeholder galeri__placeholder--orange">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="36" height="36"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.87c1.355 0 2.697.055 4.024.165C17.155 8.51 18 9.473 18 10.608v2.513m-3-4.87v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0L3 16.5m15-3.38a48.474 48.474 0 00-6-.37c-2.032 0-4.034.125-6 .37m12 0c.39.049.777.102 1.163.16 1.07.16 1.837 1.049 1.837 2.127v1.099c0 .28-.22.5-.5.5h-15a.5.5 0 01-.5-.5V15.25c0-1.078.768-1.968 1.837-2.128.386-.057.773-.11 1.163-.16"/></svg>
+              <p>Turnamen Olahraga</p>
+            </div>
+            <div class="galeri__overlay"><span>Pekan Olahraga Sekolah</span></div>
+          </div>
+          <div class="galeri__item galeri__item--tall" data-category="fasilitas">
+            <div class="galeri__placeholder galeri__placeholder--teal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="36" height="36"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
+              <p>Perpustakaan Digital</p>
+            </div>
+            <div class="galeri__overlay"><span>Perpustakaan Modern</span></div>
+          </div>
+          <div class="galeri__item" data-category="prestasi">
+            <div class="galeri__placeholder galeri__placeholder--pink">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="36" height="36"><path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"/></svg>
+              <p>Pameran Karya Siswa</p>
+            </div>
+            <div class="galeri__overlay"><span>Pameran Multimedia</span></div>
+          </div>
+          <div class="galeri__item" data-category="kegiatan">
+            <div class="galeri__placeholder galeri__placeholder--indigo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="36" height="36"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085"/></svg>
+              <p>Praktik Workshop</p>
+            </div>
+            <div class="galeri__overlay"><span>Workshop Otomotif</span></div>
+          </div>
+          <div class="galeri__item" data-category="prestasi">
+            <div class="galeri__placeholder galeri__placeholder--yellow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="36" height="36"><path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"/></svg>
+              <p>Olimpiade Sains</p>
+            </div>
+            <div class="galeri__overlay"><span>Olimpiade Sains Nasional</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONI ===== -->
+    <section class="section testimoni">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Kata Mereka</span>
+          <h2 class="section-title">Testimoni Alumni &amp; Orang Tua</h2>
+          <p class="section-subtitle">Pengalaman nyata dari mereka yang telah merasakan manfaat pendidikan di SMK Muhammadiyah Pakem.</p>
+        </div>
+        <div class="testimoni__grid">
+          <div class="testimoni__card">
+            <div class="testimoni__stars" aria-label="5 bintang">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>&ldquo;SMK Muhammadiyah Pakem adalah titik balik hidup saya. Setelah lulus, saya langsung diterima kerja di perusahaan teknologi multinasional. Fasilitas dan gurunya luar biasa!&rdquo;</blockquote>
+            <div class="testimoni__author">
+              <div class="testimoni__avatar" aria-hidden="true">RA</div>
+              <div>
+                <strong>Rizky Aditya</strong>
+                <span>Alumni 2024, Software Engineer di Google</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimoni__card testimoni__card--featured">
+            <div class="testimoni__stars" aria-label="5 bintang">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>&ldquo;Sebagai orang tua, saya sangat puas dengan perkembangan anak saya di sini. Sekolah ini tidak hanya mengajarkan skill teknis, tapi juga membentuk karakter yang kuat.&rdquo;</blockquote>
+            <div class="testimoni__author">
+              <div class="testimoni__avatar" aria-hidden="true">SR</div>
+              <div>
+                <strong>Siti Rahayu</strong>
+                <span>Orang Tua Siswa Angkatan 2026</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimoni__card">
+            <div class="testimoni__stars" aria-label="5 bintang">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote>&ldquo;Program multimedia di sini benar-benar world-class. Saya bisa magang di studio animasi internasional sejak semester 5. Pengalaman yang tak ternilai!&rdquo;</blockquote>
+            <div class="testimoni__author">
+              <div class="testimoni__avatar" aria-hidden="true">DP</div>
+              <div>
+                <strong>Dinda Pramesti</strong>
+                <span>Alumni 2025, Animator di Netflix Studio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KONTAK ===== -->
+    <section class="section kontak" id="kontak">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Hubungi Kami</span>
+          <h2 class="section-title">Kontak</h2>
+          <p class="section-subtitle">Ada pertanyaan atau ingin mendaftar? Tim kami siap membantu Anda setiap hari kerja.</p>
+        </div>
+        <div class="kontak__grid">
+
+          <div class="kontak__info">
+            <h3>Informasi Kontak</h3>
+            <ul class="kontak__list">
+              <li>
+                <div class="kontak__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+                </div>
+                <div>
+                  <strong>Alamat</strong>
+                  <p>Jl. Kaliurang Km. 17, Pakem, Sleman,<br/>Daerah Istimewa Yogyakarta 55582</p>
+                </div>
+              </li>
+              <li>
+                <div class="kontak__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+                </div>
+                <div>
+                  <strong>Telepon</strong>
+                  <p><a href="tel:+62274895123">(0274) 895-123</a></p>
+                  <p><a href="tel:+62274895124">(0274) 895-124</a> (Fax)</p>
+                </div>
+              </li>
+              <li>
+                <div class="kontak__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+                </div>
+                <div>
+                  <strong>Email</strong>
+                  <p><a href="mailto:info@smkmuhpakem.sch.id">info@smkmuhpakem.sch.id</a></p>
+                  <p><a href="mailto:ppdb@smkmuhpakem.sch.id">ppdb@smkmuhpakem.sch.id</a></p>
+                </div>
+              </li>
+              <li>
+                <div class="kontak__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <div>
+                  <strong>Jam Operasional</strong>
+                  <p>Senin &ndash; Jumat: 07.00 &ndash; 16.00 WIB</p>
+                  <p>Sabtu: 07.00 &ndash; 12.00 WIB</p>
+                </div>
+              </li>
+            </ul>
+            <div class="kontak__social">
+              <a href="#" class="social-btn" aria-label="Instagram SMK Muhammadiyah Pakem">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="YouTube SMK Muhammadiyah Pakem">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="Facebook SMK Muhammadiyah Pakem">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="WhatsApp SMK Muhammadiyah Pakem">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="kontak__form-container">
+            <h3>Kirim Pesan</h3>
+            <form class="kontak__form" id="kontakForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="nama">Nama Lengkap <span aria-hidden="true">*</span></label>
+                  <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required autocomplete="name" />
+                  <span class="form-error" id="namaError" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email <span aria-hidden="true">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="contoh@email.com" required autocomplete="email" />
+                  <span class="form-error" id="emailError" role="alert"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="telepon">Nomor Telepon</label>
+                <input type="tel" id="telepon" name="telepon" placeholder="08xx-xxxx-xxxx" autocomplete="tel" />
+              </div>
+              <div class="form-group">
+                <label for="keperluan">Keperluan <span aria-hidden="true">*</span></label>
+                <select id="keperluan" name="keperluan" required>
+                  <option value="" disabled selected>Pilih keperluan</option>
+                  <option value="ppdb">Pendaftaran Peserta Didik Baru (PPDB)</option>
+                  <option value="info-program">Informasi Program Keahlian</option>
+                  <option value="beasiswa">Informasi Beasiswa</option>
+                  <option value="kerjasama">Kerjasama &amp; Kemitraan</option>
+                  <option value="lainnya">Lainnya</option>
+                </select>
+                <span class="form-error" id="keperluanError" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="pesan">Pesan <span aria-hidden="true">*</span></label>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan atau pertanyaan Anda di sini..." required></textarea>
+                <span class="form-error" id="pesanError" role="alert"></span>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full">
+                <span class="btn-text">Kirim Pesan</span>
+                <span class="btn-icon" aria-hidden="true">&rarr;</span>
+              </button>
+              <div class="form-success" id="formSuccess" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#beranda" class="footer__logo-link">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="40" height="40">
+            <rect width="48" height="48" rx="12" fill="#1E3A8A"/>
+            <path d="M24 8L38 16V32L24 40L10 32V16L24 8Z" fill="#3B82F6" opacity="0.4"/>
+            <path d="M24 12L34 18V30L24 36L14 30V18L24 12Z" fill="white"/>
+            <text x="24" y="27" text-anchor="middle" font-size="9" font-weight="800" fill="#1E3A8A" font-family="Inter">SMP</text>
+          </svg>
+          <span>SMK Muhammadiyah Pakem</span>
+        </a>
+        <p>Mencetak generasi kompeten, berkarakter, dan berdaya saing global untuk Indonesia yang lebih maju.</p>
+        <p class="footer__accreditation">Terakreditasi A oleh BAN-S/M</p>
+      </div>
+      <div class="footer__links">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#profil">Profil Sekolah</a></li>
+          <li><a href="#program">Program Keahlian</a></li>
+          <li><a href="#berita">Berita &amp; Info</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Program Keahlian</h4>
+        <ul>
+          <li><a href="#program">Teknik Informatika</a></li>
+          <li><a href="#program">Multimedia</a></li>
+          <li><a href="#program">Teknik Otomotif</a></li>
+          <li><a href="#program">Akuntansi &amp; Keuangan</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Informasi</h4>
+        <ul>
+          <li><a href="#kontak">Pendaftaran (PPDB)</a></li>
+          <li><a href="#berita">Pengumuman</a></li>
+          <li><a href="#kontak">Kalender Akademik</a></li>
+          <li><a href="#kontak">Hubungi Kami</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2026 SMK Muhammadiyah Pakem. Hak cipta dilindungi.</p>
+        <p>Dibuat dengan semangat untuk kemajuan pendidikan Indonesia</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
